@@ -95,7 +95,7 @@ Submit the job
 sbatch container_v2.slurm
 ```
 
-5. Access Rstudio from your local computer after port forwarding.
+## 5. Access Rstudio from your local computer after port forwarding.
 
 From your local computer, open a port following the instructions in `nova-rstudio.11222333.err` file that appears after the job starts running.
 The command looks something like this:
