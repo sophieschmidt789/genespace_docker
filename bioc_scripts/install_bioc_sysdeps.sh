@@ -146,9 +146,7 @@ apt-get install -y --no-install-recommends \
 pip3 install scikit-learn \
         pandas \
         pyyaml \
-        umap-learn \
-        packaging \
-        anndata
+        packaging
 
 ## libgdal is needed for sf
 apt-get install -y --no-install-recommends \

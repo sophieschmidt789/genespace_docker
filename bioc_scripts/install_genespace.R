@@ -5,9 +5,6 @@ install.packages("pacman")
 install.packages("RcppParallel")
 install.packages(
   c(
-    "Seurat",
-    "hdf5r",
-    "anndata",
     "remotes",
     "kableExtra",
     "tidyverse",
@@ -20,7 +17,6 @@ install.packages(
     "plotly",
     "R.utils",
     "patchwork",
-    "metap",
     "gridExtra",
     "calibrate",
     "ggrepel",
@@ -32,21 +28,12 @@ BiocManager::install(c(
   "Rsamtools",
   "BiocGenerics",
   "S4Vectors",
-  "multtest",
-  "gprofiler2",
-  "TissueEnrich",
-  "dittoSeq",
   "ComplexHeatmap",
   "Biostrings",
   "rtracklayer"
 ))
-install.packages("SeuratObject")
 install.packages("data.table")
 BiocManager::install("IRanges")
 BiocManager::install("GenomicRanges")
-BiocManager::install('limma')
 
-remotes::install_github("milescsmith/enhancedDimPlot")
-remotes::install_github("satijalab/seurat-wrappers")
 devtools::install_github("jtlovell/GENESPACE", upgrade = F)
-install.packages("Signac")

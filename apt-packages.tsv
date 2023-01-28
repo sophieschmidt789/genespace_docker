@@ -18,14 +18,14 @@ bsdutils	1:2.37.2-4ubuntu3	amd64	basic utilities from 4.4BSD-Lite
 byacc	1:2.0.20220114-1	amd64	public domain Berkeley LALR Yacc parser generator
 bzip2	1.0.8-5build1	amd64	high-quality block-sorting file compressor - utilities
 ca-certificates	20211016ubuntu0.22.04.1	all	Common CA certificates
-ca-certificates-java	20190909	all	Common CA certificates (JKS keystore)
+ca-certificates-java	20190909ubuntu1.1	all	Common CA certificates (JKS keystore)
 cmake	3.22.1-1ubuntu1.22.04.1	amd64	cross-platform, open-source make system
 cmake-data	3.22.1-1ubuntu1.22.04.1	all	CMake data files (modules, templates and documentation)
 comerr-dev:amd64	2.1-1.46.5-2ubuntu1.1	amd64	common error description library - headers and static libraries
 coreutils	8.32-4.1ubuntu1	amd64	GNU core utilities
 cpp	4:11.2.0-1ubuntu1	amd64	GNU C preprocessor (cpp)
 cpp-11	11.3.0-1ubuntu1~22.04	amd64	GNU C preprocessor
-curl	7.81.0-1ubuntu1.6	amd64	command line tool for transferring data with URL syntax
+curl	7.81.0-1ubuntu1.7	amd64	command line tool for transferring data with URL syntax
 dash	0.5.11+git20210903+057cd650a4ed-3build1	amd64	POSIX-compliant shell
 debconf	1.5.79ubuntu1	all	Debian configuration management system
 debianutils	5.5-1ubuntu2	amd64	Miscellaneous utilities specific to Debian
@@ -88,7 +88,7 @@ imagemagick-6.q16	8:6.9.11.60+dfsg-1.3build2	amd64	image manipulation programs -
 init-system-helpers	1.62	all	helper tools for all init systems
 jags	4.3.0-3build1	amd64	Just Another Gibbs Sampler for Bayesian MCMC - binary
 java-common	0.72build2	all	Base package for Java runtimes
-krb5-multidev:amd64	1.19.2-2	amd64	development files for MIT Kerberos without Heimdal conflict
+krb5-multidev:amd64	1.19.2-2ubuntu0.1	amd64	development files for MIT Kerberos without Heimdal conflict
 lib32gcc-s1	12.1.0-2ubuntu1~22.04	amd64	GCC support library (32 bit Version)
 lib32stdc++6	12.1.0-2ubuntu1~22.04	amd64	GNU Standard C++ Library v3 (32 bit Version)
 libacl1:amd64	2.3.1-1	amd64	access control list - shared library
@@ -212,9 +212,9 @@ libcrypt1:amd64	1:4.4.27-1	amd64	libcrypt shared library
 libctf-nobfd0:amd64	2.38-4ubuntu2.1	amd64	Compact C Type Format library (runtime, no BFD dependency)
 libctf0:amd64	2.38-4ubuntu2.1	amd64	Compact C Type Format library (runtime, BFD dependency)
 libcups2:amd64	2.4.1op1-1ubuntu4.1	amd64	Common UNIX Printing System(tm) - Core library
-libcurl3-gnutls:amd64	7.81.0-1ubuntu1.6	amd64	easy-to-use client-side URL transfer library (GnuTLS flavour)
-libcurl4:amd64	7.81.0-1ubuntu1.6	amd64	easy-to-use client-side URL transfer library (OpenSSL flavour)
-libcurl4-gnutls-dev:amd64	7.81.0-1ubuntu1.6	amd64	development files and documentation for libcurl (GnuTLS flavour)
+libcurl3-gnutls:amd64	7.81.0-1ubuntu1.7	amd64	easy-to-use client-side URL transfer library (GnuTLS flavour)
+libcurl4:amd64	7.81.0-1ubuntu1.7	amd64	easy-to-use client-side URL transfer library (OpenSSL flavour)
+libcurl4-gnutls-dev:amd64	7.81.0-1ubuntu1.7	amd64	development files and documentation for libcurl (GnuTLS flavour)
 libcxsparse3:amd64	1:5.10.1+dfsg-4build1	amd64	concise sparse matrix library
 libdata-compare-perl	1.27-1	all	perl module to compare perl data structures recursively
 libdata-dump-perl	1.25-1	all	Perl module to help dump data structures
@@ -257,7 +257,7 @@ libdw1:amd64	0.186-1build1	amd64	library that provides access to the DWARF debug
 libdynaloader-functions-perl	0.003-1.1	all	deconstructed dynamic C library loading
 libedit2:amd64	3.1-20210910-1build1	amd64	BSD editline and history libraries
 libegl-dev:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- EGL development files
-libegl-mesa0:amd64	22.0.5-0ubuntu0.1	amd64	free implementation of the EGL API -- Mesa vendor library
+libegl-mesa0:amd64	22.0.5-0ubuntu0.3	amd64	free implementation of the EGL API -- Mesa vendor library
 libegl1:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- EGL support
 libeigen3-dev	3.4.0-2ubuntu2	all	lightweight C++ template library for linear algebra
 libelf1:amd64	0.186-1build1	amd64	library to read and write ELF files
@@ -315,7 +315,7 @@ libfuse-dev:amd64	2.9.9-5ubuntu3	amd64	Filesystem in Userspace (development)
 libfuse2:amd64	2.9.9-5ubuntu3	amd64	Filesystem in Userspace (library)
 libfyba-dev:amd64	4.1.1-7	amd64	Header files for FYBA library
 libfyba0:amd64	4.1.1-7	amd64	FYBA library to read and write Norwegian geodata standard format SOSI
-libgbm1:amd64	22.0.5-0ubuntu0.1	amd64	generic buffer management API -- runtime
+libgbm1:amd64	22.0.5-0ubuntu0.3	amd64	generic buffer management API -- runtime
 libgc1:amd64	1:8.0.6-1.1build1	amd64	conservative garbage collector for C and C++
 libgcc-11-dev:amd64	11.3.0-1ubuntu1~22.04	amd64	GCC support library (development files)
 libgcc-s1:amd64	12.1.0-2ubuntu1~22.04	amd64	GCC support library
@@ -343,9 +343,9 @@ libgit2-1.1:amd64	1.1.0+dfsg.1-4.1build1	amd64	low-level Git library
 libgit2-dev:amd64	1.1.0+dfsg.1-4.1build1	amd64	low-level Git library (development files)
 libgl-dev:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- GL development files
 libgl1:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- legacy GL support
-libgl1-mesa-dev:amd64	22.0.5-0ubuntu0.1	amd64	transitional dummy package
-libgl1-mesa-dri:amd64	22.0.5-0ubuntu0.1	amd64	free implementation of the OpenGL API -- DRI modules
-libglapi-mesa:amd64	22.0.5-0ubuntu0.1	amd64	free implementation of the GL API -- shared library
+libgl1-mesa-dev:amd64	22.0.5-0ubuntu0.3	amd64	transitional dummy package
+libgl1-mesa-dri:amd64	22.0.5-0ubuntu0.3	amd64	free implementation of the OpenGL API -- DRI modules
+libglapi-mesa:amd64	22.0.5-0ubuntu0.3	amd64	free implementation of the GL API -- shared library
 libgles-dev:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- GLES development files
 libgles1:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- GLESv1 support
 libgles2:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- GLESv2 support
@@ -364,7 +364,7 @@ libglvnd-core-dev:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- core
 libglvnd-dev:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- development files
 libglvnd0:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library
 libglx-dev:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- GLX development files
-libglx-mesa0:amd64	22.0.5-0ubuntu0.1	amd64	free implementation of the OpenGL API -- GLX vendor library
+libglx-mesa0:amd64	22.0.5-0ubuntu0.3	amd64	free implementation of the OpenGL API -- GLX vendor library
 libglx0:amd64	1.4.0-1	amd64	Vendor neutral GL dispatch library -- GLX support
 libgme0:amd64	0.6.3-2	amd64	Playback library for video game music files - shared library
 libgmp-dev:amd64	2:6.2.1+dfsg-3ubuntu1	amd64	Multiprecision arithmetic library developers tools
@@ -380,8 +380,8 @@ libgsl-dev	2.7.1+dfsg-3	amd64	GNU Scientific Library (GSL) -- development packag
 libgsl27:amd64	2.7.1+dfsg-3	amd64	GNU Scientific Library (GSL) -- library package
 libgslcblas0:amd64	2.7.1+dfsg-3	amd64	GNU Scientific Library (GSL) -- blas library package
 libgsm1:amd64	1.0.19-1	amd64	Shared libraries for GSM speech compressor
-libgssapi-krb5-2:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-libgssrpc4:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - GSS enabled ONCRPC
+libgssapi-krb5-2:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+libgssrpc4:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - GSS enabled ONCRPC
 libgtk2.0-0:amd64	2.24.33-2ubuntu2	amd64	GTK graphical user interface library - old version
 libgtk2.0-common	2.24.33-2ubuntu2	all	common files for the GTK graphical user interface library
 libgtk2.0-dev:amd64	2.24.33-2ubuntu2	amd64	development files for the GTK library
@@ -454,10 +454,10 @@ libjs-underscore	1.13.2~dfsg-2	all	JavaScript's functional programming helper li
 libjson-c-dev:amd64	0.15-3~ubuntu1.22.04.1	amd64	JSON manipulation library - development files
 libjson-c5:amd64	0.15-3~ubuntu1.22.04.1	amd64	JSON manipulation library - shared library
 libjsoncpp25:amd64	1.9.5-3	amd64	library for reading and writing JSON for C++
-libk5crypto3:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - Crypto Library
-libkadm5clnt-mit12:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - Administration Clients
-libkadm5srv-mit12:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - KDC and Admin Server
-libkdb5-10:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - Kerberos database
+libk5crypto3:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - Crypto Library
+libkadm5clnt-mit12:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - Administration Clients
+libkadm5srv-mit12:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - KDC and Admin Server
+libkdb5-10:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - Kerberos database
 libkeyutils1:amd64	1.6.1-2ubuntu3	amd64	Linux Key Management Utilities (library)
 libklu1:amd64	1:5.10.1+dfsg-4build1	amd64	circuit simulation sparse LU factorization library
 libkml-dev:amd64	1.3.0-9	amd64	Library to manipulate KML 2.2 OGC standard files - development files
@@ -467,9 +467,9 @@ libkmldom1:amd64	1.3.0-9	amd64	Library to manipulate KML 2.2 OGC standard files 
 libkmlengine1:amd64	1.3.0-9	amd64	Library to manipulate KML 2.2 OGC standard files - libkmlengine
 libkmlregionator1:amd64	1.3.0-9	amd64	Library to manipulate KML 2.2 OGC standard files - libkmlregionator
 libkmlxsd1:amd64	1.3.0-9	amd64	Library to manipulate KML 2.2 OGC standard files - libkmlxsd
-libkrb5-3:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries
-libkrb5-dev:amd64	1.19.2-2	amd64	headers and development libraries for MIT Kerberos
-libkrb5support0:amd64	1.19.2-2	amd64	MIT Kerberos runtime libraries - Support library
+libkrb5-3:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries
+libkrb5-dev:amd64	1.19.2-2ubuntu0.1	amd64	headers and development libraries for MIT Kerberos
+libkrb5support0:amd64	1.19.2-2ubuntu0.1	amd64	MIT Kerberos runtime libraries - Support library
 liblab-gamut1:amd64	2.42.2-6	amd64	rich set of graph drawing tools - liblab_gamut library
 liblapack-dev:amd64	3.10.0-2ubuntu1	amd64	Library of linear algebra routines 3 - static version
 liblapack3:amd64	3.10.0-2ubuntu1	amd64	Library of linear algebra routines 3 - shared version
@@ -550,8 +550,8 @@ libmpfr6:amd64	4.1.0-3build3	amd64	multiple precision floating-point computation
 libmpg123-0:amd64	1.29.3-1build1	amd64	MPEG layer 1/2/3 audio decoder (shared library)
 libmro-compat-perl	0.15-1	all	mro::* interface compatibility for Perls < 5.9.5
 libmysofa1:amd64	1.2.1~dfsg0-1	amd64	library to read HRTFs stored in the AES69-2015 SOFA format
-libmysqlclient-dev	8.0.31-0ubuntu0.22.04.1	amd64	MySQL database development files
-libmysqlclient21:amd64	8.0.31-0ubuntu0.22.04.1	amd64	MySQL database client library
+libmysqlclient-dev	8.0.32-0buntu0.22.04.1	amd64	MySQL database development files
+libmysqlclient21:amd64	8.0.32-0buntu0.22.04.1	amd64	MySQL database client library
 libnamespace-autoclean-perl	0.29-1	all	module to remove imported symbols after compilation
 libnamespace-clean-perl	0.27-1	all	module for keeping imports and functions out of the current namespace
 libncurses-dev:amd64	6.3-2	amd64	developer's libraries for ncurses
@@ -651,8 +651,8 @@ libpoppler-private-dev:amd64	22.02.0-2ubuntu0.1	amd64	PDF rendering library -- p
 libpoppler118:amd64	22.02.0-2ubuntu0.1	amd64	PDF rendering library
 libpostproc-dev:amd64	7:4.4.2-0ubuntu0.22.04.1	amd64	FFmpeg library for post processing - development files
 libpostproc55:amd64	7:4.4.2-0ubuntu0.22.04.1	amd64	FFmpeg library for post processing - runtime files
-libpq-dev	14.5-0ubuntu0.22.04.1	amd64	header files for libpq5 (PostgreSQL library)
-libpq5:amd64	14.5-0ubuntu0.22.04.1	amd64	PostgreSQL C client library
+libpq-dev	14.6-0ubuntu0.22.04.1	amd64	header files for libpq5 (PostgreSQL library)
+libpq5:amd64	14.6-0ubuntu0.22.04.1	amd64	PostgreSQL C client library
 libprocps8:amd64	2:3.3.17-6ubuntu2	amd64	library for accessing process information from /proc
 libproj-dev:amd64	8.2.1-1	amd64	Cartographic projection library (development files)
 libproj22:amd64	8.2.1-1	amd64	Cartographic projection library
@@ -703,9 +703,9 @@ librttopo-dev:amd64	1.1.0-2	amd64	Tuscany Region topology library - Development 
 librttopo1:amd64	1.1.0-2	amd64	Tuscany Region topology library
 librubberband2:amd64	2.0.0-2	amd64	audio time-stretching and pitch-shifting library
 libsamplerate0:amd64	0.2.2-1build1	amd64	Audio sample rate conversion library
-libsasl2-2:amd64	2.1.27+dfsg2-3ubuntu1	amd64	Cyrus SASL - authentication abstraction library
-libsasl2-dev	2.1.27+dfsg2-3ubuntu1	amd64	Cyrus SASL - development files for authentication abstraction library
-libsasl2-modules-db:amd64	2.1.27+dfsg2-3ubuntu1	amd64	Cyrus SASL - pluggable authentication modules (DB)
+libsasl2-2:amd64	2.1.27+dfsg2-3ubuntu1.1	amd64	Cyrus SASL - authentication abstraction library
+libsasl2-dev	2.1.27+dfsg2-3ubuntu1.1	amd64	Cyrus SASL - development files for authentication abstraction library
+libsasl2-modules-db:amd64	2.1.27+dfsg2-3ubuntu1.1	amd64	Cyrus SASL - pluggable authentication modules (DB)
 libsbml5	5.19.0+dfsg-1ubuntu2	amd64	System Biology Markup Language library
 libsbml5-dev	5.19.0+dfsg-1ubuntu2	amd64	System Biology Markup Language library - development files
 libscalar-list-utils-perl	1:1.61-1	amd64	modules providing common scalar and list utility subroutines
@@ -896,8 +896,8 @@ libxml2-dev:amd64	2.9.13+dfsg-1ubuntu0.2	amd64	GNOME XML library - development f
 libxml2-utils	2.9.13+dfsg-1ubuntu0.2	amd64	GNOME XML library - utilities
 libxmu6:amd64	2:1.1.3-3	amd64	X11 miscellaneous utility library
 libxnvctrl0:amd64	510.47.03-0ubuntu1	amd64	NV-CONTROL X extension (runtime library)
-libxpm-dev:amd64	1:3.5.12-1build2	amd64	X11 pixmap library (development headers)
-libxpm4:amd64	1:3.5.12-1build2	amd64	X11 pixmap library
+libxpm-dev:amd64	1:3.5.12-1ubuntu0.22.04.1	amd64	X11 pixmap library (development headers)
+libxpm4:amd64	1:3.5.12-1ubuntu0.22.04.1	amd64	X11 pixmap library
 libxrandr-dev:amd64	2:1.5.2-1build1	amd64	X11 RandR extension library (development headers)
 libxrandr2:amd64	2:1.5.2-1build1	amd64	X11 RandR extension library
 libxrender-dev:amd64	1:0.9.10-1build4	amd64	X Rendering Extension client library (development files)
@@ -960,7 +960,7 @@ openjdk-11-jre-headless:amd64	11.0.17+8-1ubuntu2~22.04	amd64	OpenJDK Java runtim
 openmpi-bin	4.1.2-2ubuntu1	amd64	high performance message passing library -- binaries
 openmpi-common	4.1.2-2ubuntu1	all	high performance message passing library -- common files
 openmpi-doc	4.1.2-2ubuntu1	all	high performance message passing library -- man pages
-openssh-client	1:8.9p1-3	amd64	secure shell (SSH) client, for secure access to remote machines
+openssh-client	1:8.9p1-3ubuntu0.1	amd64	secure shell (SSH) client, for secure access to remote machines
 openssl	3.0.2-0ubuntu1.7	amd64	Secure Sockets Layer toolkit - cryptographic utility
 pango1.0-tools	1.50.6+ds-2	amd64	Development utilities for Pango
 passwd	1:4.8.1-2ubuntu2.1	amd64	change and administer password and group data
@@ -993,18 +993,18 @@ python3-minimal	3.10.6-1~22.04	amd64	minimal subset of the Python language (defa
 python3-numpy	1:1.21.5-1ubuntu22.04.1	amd64	Fast array facility to the Python 3 language
 python3-pandas	1.3.5+dfsg-3	all	data structures for relational or labeled data
 python3-pandas-lib:amd64	1.3.5+dfsg-3	amd64	low-level implementations and bindings for pandas
-python3-pip	22.0.2+dfsg-1	all	Python package installer
-python3-pip-whl	22.0.2+dfsg-1	all	Python package installer (pip wheel)
-python3-pkg-resources	59.6.0-1.2	all	Package Discovery and Resource Access using pkg_resources
+python3-pip	22.0.2+dfsg-1ubuntu0.1	all	Python package installer
+python3-pip-whl	22.0.2+dfsg-1ubuntu0.1	all	Python package installer (pip wheel)
+python3-pkg-resources	59.6.0-1.2ubuntu0.22.04.1	all	Package Discovery and Resource Access using pkg_resources
 python3-ply	3.11-5	all	Lex and Yacc implementation for Python3
 python3-pythran	0.10.0+ds2-1	amd64	ahead of time compiler for Python
 python3-scipy	1.8.0-1exp2ubuntu1	amd64	scientific tools for Python 3
-python3-setuptools	59.6.0-1.2	all	Python3 Distutils Enhancements
-python3-setuptools-whl	59.6.0-1.2	all	Python Distutils Enhancements (wheel package)
+python3-setuptools	59.6.0-1.2ubuntu0.22.04.1	all	Python3 Distutils Enhancements
+python3-setuptools-whl	59.6.0-1.2ubuntu0.22.04.1	all	Python Distutils Enhancements (wheel package)
 python3-six	1.16.0-3ubuntu1	all	Python 2 and 3 compatibility library (Python 3 interface)
 python3-tz	2022.1-1ubuntu0.22.04.0	all	Python3 version of the Olson timezone database
 python3-venv	3.10.6-1~22.04	amd64	venv module for python3 (default python3 version)
-python3-wheel	0.37.1-2	all	built-package format for Python
+python3-wheel	0.37.1-2ubuntu0.22.04.1	all	built-package format for Python
 python3.10	3.10.6-1~22.04.2	amd64	Interactive high-level object-oriented language (version 3.10)
 python3.10-dev	3.10.6-1~22.04.2	amd64	Header files and a static library for Python (v3.10)
 python3.10-minimal	3.10.6-1~22.04.2	amd64	Minimal subset of the Python language (version 3.10)

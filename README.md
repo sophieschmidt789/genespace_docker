@@ -11,14 +11,23 @@ sudo docker build -t GeneSpaceRstudio:4.2.2  -f Dockerfile .
 ## 2. Convert docker image to Singularity
 
 ```bash
-sudo singularity build rstudio-genespace.sif docker-daemon://GeneSpaceRstudio:4.2.2
+sudo singularity build genespace_0.9.4.sif docker-daemon://GeneSpaceRstudio:4.2.2
 ```
+
 
 ## 3. Transfer the image to Nova
 
 ```bash
-rsync -avP rstudio-genespace.sif  novadtn:/work/mash-covid/genespace/rstudio/
+rsync -avP genespace_0.9.4.sif  novadtn:/work/mash-covid/genespace/rstudio/
 ```
+
+Alternatively, you can just pull the image from the docker hub directly on the HPC:
+
+```bash
+ml singularity
+singularity pull docker://arnstrm2/genespace:0.9.4
+```
+
 
 ## 4. Submit a job script to start the Rstudio server
 
@@ -39,7 +48,7 @@ A sample job script (`container_v2.slurm`) looks like this:
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
 ml singularity
-SINGULARITY_IMAGE=rstudio-genespace.sif
+SINGULARITY_IMAGE=genespace_0.9.4.sif
 workdir=$(python -c 'import tempfile; print(tempfile.mkdtemp())')
 mkdir -p -m 700 ${workdir}/run ${workdir}/tmp ${workdir}/var/lib/rstudio-server
 cat > ${workdir}/database.conf <<END
