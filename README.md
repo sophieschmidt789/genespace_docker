@@ -25,7 +25,7 @@ Alternatively, you can just pull the image from the docker hub directly on the H
 
 ```bash
 ml singularity
-singularity pull docker://arnstrm2/genespace:0.9.4
+singularity pull docker://arnstrm2/genespace:1.1.4
 ```
 
 
