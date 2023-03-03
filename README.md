@@ -112,6 +112,7 @@ The command looks something like this:
 ```bash
 ssh -N -L 8787:novaamd123:54321 username@nova.its.iastate.edu
 # enter auth code and the password - the terminal appears hung, but that is fine. 
+# note that the printed hostname at the end should point to Nova 
 ```
 open any of your web browser (local computer), and go to: `http://localhost:8787`
 enter the username and password as shown in the `nova-rstudio.11222333.err` file. You should see the RStudio on your browser. 
