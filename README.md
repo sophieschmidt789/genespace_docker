@@ -44,7 +44,7 @@ A sample job script (`container_v2.slurm`) looks like this:
 #SBATCH --job-name=rstudio
 #SBATCH --output=nova-%x.%j.out
 #SBATCH --error=nova-%x.%j.err
-#SBATCH --mail-user=$USER@iastate.edu
+#SBATCH --mail-user=sophie7@iastate.edu
 #SBATCH --mail-type=begin
 #SBATCH --mail-type=end
 ml singularity
